@@ -57,5 +57,5 @@ docs/_build/
 target/
 
 # Files
-C:\Users\hany.akoury\Projects\dcube\facerec\facedetect_solution.py
-C:\Users\hany.akoury\Projects\dcube\facerec\whereisarthur.py
+facedetect_solution.py
+whereisarthur.py
