@@ -1,6 +1,7 @@
 from io import BytesIO
 import requests
 from PIL import Image, ImageDraw
+import validators
 
 # Convert width height to a point in a rectangle
 def getRectangle(faceDictionary):

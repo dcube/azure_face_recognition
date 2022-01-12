@@ -1,20 +1,18 @@
 # Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+Dans ce dcube Learning, vous allez commencez à utiliser la reconnaissance faciale avec la bibliothèque de **Face client** pour Python. 
+Suivez les étapes suivantes pour installer le 'TD: FACEREC' et completer avec moi l’exemple de code pour les tâches de base. 
+Le service 'Face' vous donne accès à des algorithmes avancés pour la détection et la reconnaissance des visages dans des images.
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+# Pour commencer il faut
+1.	Cloner et ouvrir le repo dans VSCode
+2.	Créer un environnement virtuel avec vos gestionnaires d'environnement préférés ````python -m virtualenv venv```` et l'activer ````source venv/scripts/activate````
+3.  Créer une branche de travail (merci de ne pas me casser la main !) ````git checkout -b facerec_<inserer_prenom>````
+4.	Installer Azure-cognitiveservices-vision-face ````pip install --upgrade azure-cognitiveservices-vision-face````    
+5.	Installer les packages requis ````pip install -r requirements.txt````
+6.  Developper votre script dans le fichier facedetect.py
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+# Build et Test
+Pour tester correctement votre script il faut lancer dans votre terminal votre script python en executant la commande suivante ````python facedetect.py````
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
-
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+# Le mot de la fin
+Soyez indulgents et profitez !
